@@ -1426,11 +1426,11 @@ input::-moz-focus-inner {
   display: block;
   color: #ffffff;
   position: relative;
-  padding-left: 3.5rem;
+  padding-left: 0.5rem;
 }
 .header-nav__list a::before {
-  content: counter(ctr, decimal-leading-zero) ".";
-  counter-increment: ctr;
+  /*content: counter(ctr, decimal-leading-zero) ".";
+  counter-increment: ctr;*/
   font-family: "metropolis-regular", sans-serif;
   font-size: 11px;
   color: rgba(255, 255, 255, 0.25);
@@ -1629,8 +1629,10 @@ input::-moz-focus-inner {
     left: 30px;
   }
   .header-logo img {
-    width: 180px;
-    height: 34px;
+    width: 225px;
+    height: 100px;
+    margin-top: 25px;
+    margin-left: -20px;
   }
 
   .header-menu-toggle {
